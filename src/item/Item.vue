@@ -77,7 +77,7 @@ export default {
       });
       var url = encodeURIComponent('https://' + location.host + location.pathname + location.hash);
 
-      self.shareUrls.twitter = 'https://twitter.com/intent/tweet?text="' + self.title + '"&url=' + url + '&related=tolksio';
+      self.shareUrls.twitter = 'https://twitter.com/intent/tweet?text="' + self.title + '"&url=' + url;
 
       self.shareUrls.fb = 'http://facebook.com/sharer/sharer.php?u=' + url;
     });

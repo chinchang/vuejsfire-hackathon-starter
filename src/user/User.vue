@@ -14,7 +14,7 @@
       <div class="tac" style="margin: 80px 0" v-if="!isUserDataLoaded">
         <span class="spinner"></span><span class="text--light">Hold tight...</span>
       </div>
-      <div class="tolk-list" v-if="isUserDataLoaded">
+      <div class="item-list" v-if="isUserDataLoaded">
         <item-tile :item="item" v-for="item in userItems" transitio="jump-up" stagger="70"  track-by="uid"></item-tile>
       </div>
       <div class="text--light" v-if="isUserDataLoaded && !user.numItems">No items created! Strange!</div>
@@ -84,7 +84,7 @@ export default {
 </script>
 
 <style>
-  .tolk-list {
+  .item-list {
     display: flex;
     flex-wrap: wrap;
   }
