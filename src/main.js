@@ -17,7 +17,7 @@ router.beforeEach(function () {
 
 router.afterEach(function (transition) {
   if (transition.to.defaultTitle !== false) {
-    document.title = 'Tolks';
+    document.title = 'VueFire Hackathon Starter';
   }
   ga('set', 'page', transition.to.path);
   ga('send', 'pageview');
