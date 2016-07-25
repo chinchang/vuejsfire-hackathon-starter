@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <title>VueFire Hackathon Starter</title>
-  <meta name="author" content="Kushagra Gour">
-  <meta name="description" content="Cool project is the best">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="image_src" href="/assets/logo.png"/>
-  <link rel="dns-prefetch" href="firebasestorage.googleapis.com">
-  <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet" type="text/css">
-
-  <link href='assets/vendor.css' rel='stylesheet' type='text/css'>
-	<style>
-  * {
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <title>VueFire Hackathon Starter</title> <meta name="author" content="Kushagra Gour"> <meta name="description" content="Cool project is the best"> <meta name="viewport" content="width=device-width,initial-scale=1"> <link rel="icon" type="image/png" href="/favicon.png"> <link rel="image_src" href="/assets/logo.png"> <link rel="dns-prefetch" href="firebasestorage.googleapis.com"> <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet" type="text/css"> <link href="assets/vendor.css" rel="stylesheet" type="text/css"> <style>* {
     box-sizing: border-box;
   }
   body {
@@ -58,23 +43,11 @@
   .dib { display: inline-block; }
   .vam { vertical-align: middle; }
   .flex-v-center { align-items: center; }
-  .flex-h-center { justify-content: center; }
-  </style>
-  </head>
-  <body>
-
-    <app></app>
-
-    <script>
-    try {
+  .flex-h-center { justify-content: center; }</style> <link href="dist/style.css?dd21f5319ac5adb832a5" rel="stylesheet"></head> <body> <app></app> <script>try {
       // Detect touch screen. Otherwise will throw err.
       document.createEvent('TouchEvent');
       document.body.classList.add('is-touch');
-    } catch(e) {}
-    </script>
-    <script src="//www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
-    <script type="text/javascript">
-    if (location.host.indexOf('localhost') === -1) {
+    } catch(e) {}</script> <script src="//www.gstatic.com/firebasejs/live/3.0/firebase.js"></script> <script>if (location.host.indexOf('localhost') === -1) {
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -84,13 +57,6 @@
       ga('send', 'pageview');
     } else {
       window.ga = function(){}
-    }
-    </script>
-
-    <script>
-    if (location.host.indexOf('localhost') !== -1) {
+    }</script> <script>if (location.host.indexOf('localhost') !== -1) {
       document.write('<scr' + 'ipt src="dist/build.js"></sc' + 'ript>');
-    }
-    </script>
-  </body>
-</html>
+    }</script> <script type="text/javascript" src="dist/build.js?dd21f5319ac5adb832a5"></script></body> </html>
