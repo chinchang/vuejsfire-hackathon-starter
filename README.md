@@ -1,9 +1,9 @@
-# VueFire Hackathon Starter
+# VuejsFire Hackathon Starter
 
-VueFire is a project starter kit based on [Vue.js]() JavaScript framework and [Firebase]() as backend. This starter kit is actually born out of my side-project [Tolks]().
+VuejsvFire is a project starter kit based on [Vue.js]() JavaScript framework and [Firebase]() as backend. This starter kit is actually born out of my side-project [Tolks]().
 
 ---
-[Demo](http://kushagragour.in/vuefire-hackathon-starter/) • [Features](#features) • [Ingredients](#ingredients) • [Getting Started](#getting-started-with-development)
+[Demo](http://kushagragour.in/vuejsfire-hackathon-starter/) • [Features](#features) • [Ingredients](#ingredients) • [Getting Started](#getting-started-with-development) • [Detailed Wiki](https://github.com/chinchang/vuejsfire-hackathon-starter/wiki/About)
 ---
 
 ![](/screenshots/screenshot1.png)
@@ -15,6 +15,7 @@ VueFire is a project starter kit based on [Vue.js]() JavaScript framework and [F
 - Single file components
 - In-built User Module
 - Twitter/Facebook Authentication
+- In-built notification system
 - Beautiful design and experience
 - Responsive UI
 
