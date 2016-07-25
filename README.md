@@ -2,6 +2,10 @@
 
 VueFire is a project starter kit based on [Vue.js]() JavaScript framework and [Firebase]() as backend. This starter kit is actually born out of my side-project [Tolks]().
 
+---
+[Demo](http://kushagragour.in/vuefire-hackathon-starter/) • [Features](#features) • [Ingredients](#ingredients) • [Getting Started](#getting-started-with-development)
+---
+
 ![](/screenshots/screenshot1.png)
 
 ### Features
