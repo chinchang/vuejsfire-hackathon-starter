@@ -1,7 +1,7 @@
 <template>
     <div>
       <div class="hero tac">
-        <h1>VueFire Hackathon Starter</h1>
+        <h1>VuejsFire Hackathon Starter</h1>
         <h3>The most beautiful and quick hackathon starter kit</h3>
         <br>
         <div>
