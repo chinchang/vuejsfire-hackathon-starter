@@ -22,6 +22,15 @@ VueFire is a project starter kit based on [Vue.js]() JavaScript framework and [F
 - Page loader by [Tobias Ahlin](http://tobiasahlin.com/spinkit/)
 - [Roboto](https://fonts.google.com/specimen/Roboto) font from Google fonts
 
+### Getting started with development
+
+- Clone this repo.
+- Create a project in [Firebase](https://console.firebase.google.com/). Note, the app would also run with the default Firebase config included in the project. But its advised to replace it with your own Firebase project.
+- Turn on [Twitter](https://firebase.google.com/docs/auth/web/twitter-login) & [Facebook](https://firebase.google.com/docs/auth/web/facebook-login) in your Firebase project.
+- Replace the Firebase credentials in `auth.js`.
+- Run `npm install` to install all dependencies.
+- Run `npm run dev` to spin the local server and access your cool app on `localhost:8080`.
+
 ### License
 
 Open source under The MIT License
