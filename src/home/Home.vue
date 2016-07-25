@@ -39,8 +39,7 @@ export default {
   methods: {
     onCreateClick() {
       if (auth.isLoggedIn) {
-        // Take user to some valid route
-        // this.$route.router.go({ name: 'someValidRouteName' });
+        this.$route.router.go({ name: 'new' });
       } else {
         this.$dispatch('openLoginDialogEvent')
       }
