@@ -3,7 +3,7 @@
 VuejsvFire is a project starter kit based on [Vue.js]() JavaScript framework and [Firebase]() as backend. This starter kit is actually born out of my side-project [Tolks]().
 
 ---
-[Demo](http://kushagragour.in/vuejsfire-hackathon-starter/) • [Features](#features) • [Ingredients](#ingredients) • [Getting Started](#getting-started-with-development) • [Detailed Wiki](https://github.com/chinchang/vuejsfire-hackathon-starter/wiki/About)
+[Demo](http://kushagragour.in/vuejsfire-hackathon-starter/) • [Features](#features) • [Ingredients](#ingredients) • [Getting Started](#getting-started-with-development) • [Deployment](#deployment) • [Detailed Wiki](https://github.com/chinchang/vuejsfire-hackathon-starter/wiki/About)
 ---
 
 ![](/screenshots/screenshot1.png)
@@ -35,6 +35,13 @@ VuejsvFire is a project starter kit based on [Vue.js]() JavaScript framework and
 - Replace the Firebase credentials in `auth.js`.
 - Run `npm install` to install all dependencies.
 - Run `npm run dev` to spin the local server and access your cool app on `localhost:8080`.
+
+### Deployment
+
+- Run `npm run build` to build the project.
+- If you are using Github pages for deployment, you can simply run `build-gh-pages.sh` instead.
+
+[Read more about deployment](https://github.com/chinchang/vuejsfire-hackathon-starter/wiki/About#deployment).
 
 ### License
 
