@@ -15,7 +15,7 @@
         <span class="spinner"></span><span class="text--light">Hold tight...</span>
       </div>
       <div class="item-list" v-if="isUserDataLoaded">
-        <item-tile :item="item" v-for="item in userItems" transitio="jump-up" stagger="70"  track-by="uid"></item-tile>
+        <item-tile :item="item" v-for="item in userItems" :key="item.id" transitio="jump-up" stagger="70"  track-by="uid"></item-tile>
       </div>
       <div class="text--light" v-if="isUserDataLoaded && !user.numItems">No items created! Strange!</div>
     </section>

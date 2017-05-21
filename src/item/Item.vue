@@ -25,12 +25,12 @@
             </svg>
           </a>
           <div class="dropdown__menu  dropdown__menu--right" style="white-space:nowrap">
-            <a class="btn" target="_blank" href="{{ shareUrls.twitter }}">
+            <a class="btn" target="_blank" :href="shareUrls.twitter">
               <svg viewBox="0 0 16 16">
                 <use xlink:href="#twitter-icon"/>
               </svg>
             </a>
-            <a class="btn" target="_blank" href="{{ shareUrls.fb }}">
+            <a class="btn" target="_blank" :href="shareUrls.fb">
               <svg viewBox="0 0 24 24">
                 <use xlink:href="#facebook-icon"/>
               </svg>

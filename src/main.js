@@ -30,29 +30,17 @@ function scrollToTop() {
   requestAnimationFrame(scrollToTop);
 }
 
-router.map({
-  '/': {
-    component: Home
-  },
-  '/about': {
-    component: About
-  },
-  '/item/new/edit': {
-    name: 'new',
-    component: Edit,
-  },
-  '/item/:itemId/edit': {
-    name: 'edit',
-    component: Edit,
-  },
-  '/item/:itemId': {
-    name: 'item',
-    component: Item
-  },
-  '/user/:userId': {
-    name: 'user',
-    component: User
-  }
-});
+const routes = [
+  { path: '/', component: Home },
+  { path: '/about', component: About },
+  { path: '/item/new/edit', name: 'new', component: Edit },
+  { path: '/item/:itemId/edit', name: 'edit', component: Edit },
+  { path: '/item/:itemId', name: 'item', component: Item },
+  { path: '/user/:userId', name: 'user', component: User }
+];
 
-router.start(App, 'app');
+new Vue({
+  el: 'app',
+  render: h => h(App)
+});
+// router.start(App, 'app');

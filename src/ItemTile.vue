@@ -8,7 +8,7 @@
         <span>{{ createdOnFormatted }} </span>
       </div>
     </div>
-  </a>
+  </div>
 </template>
 
 <script>
